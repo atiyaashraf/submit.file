@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* id selector*/
+#admin-from{
+
+background-color: bisque;color: blueviolet;text-align: center;width: 45%;margin: auto;padding: 50px;}
+/* decentend selector */
+#admin-from h1{
+
+}
+form{*{
+    margin: 0;
+    padding: 0;
+
+}
+/* id selector*/
+#admin-from{
+
+background-color: beige;color: cyan;text-align: center;width: 45%;margin: auto;padding: 50;}
+/* decentend selector */
+#admin-from h1{
+
+}
+form{
+
+}
+input{
+
+width: 100%;padding: 10px;}
+
+}
+input{
+
+width: 100%;padding: 10px;}
+input[type="submit"]
+{
+    background-color: burlywood;
+    transition: 0.7s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(196, 132, 164);
+    color: white;
+
+    font-size: 20px;
+}
+input :focus {
+    background-color: blue;
+}
+input::placeholder{
+    color: crimson;
+}
